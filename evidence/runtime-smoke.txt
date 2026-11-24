@@ -1,0 +1,10 @@
+AC1 坏校验位创建 -> 422 tax_id_check_digit
+AC2 专票缺开户行 -> 422 special_invoice_required
+创建专票资料 -> 201 id=09b212b5-51d8-4c06-950b-8c3c9da2d90d
+AC3 列表银行账号 -> ****0123 (masked=True)
+详情(财务) -> 6222021234567890123
+详情(销售) -> ****0123
+PATCH 注册电话 -> 200
+AC4 审计 update 行数 -> 1; diff -> {'registered_phone': {'new': '022-99998888', 'old': '022-12345678'}}
+
+SMOKE PASS
